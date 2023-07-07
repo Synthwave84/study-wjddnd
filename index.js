@@ -18,8 +18,8 @@ function calculate(a, b, operator) {
 }
 
 function renderResult() {
-  const a = leftInput.value;
-  const b = rightInput.value;
+  const a = Number(leftInput.value);
+  const b = Number(rightInput.value);
   const operator = centerInput.value;
 
   const result = calculate(a, b, operator);
